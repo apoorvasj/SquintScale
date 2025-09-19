@@ -14,3 +14,5 @@ a native app to detect squint, classify the type of disease and measure angle of
 <img src="https://github.com/user-attachments/assets/d7ad2b32-a81f-453a-82cb-fb4eae86c31b" width="300px" height="500px" />
 <a href="#">
 </div>
+<br>
+This project was built as a part of Aravind Centre for Eyecare Innovation Hackathon 2025.
