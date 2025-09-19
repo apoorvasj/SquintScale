@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SquintScale"
+        android:textSize="30sp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/home1"
+        android:gravity="center_horizontal"
+        android:layout_margin="16dp">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/home_bg"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnProvider"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="Healthcare Provider"
+            android:textSize="20sp"
+            android:background="@drawable/home_doctor_button_shape"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/btnPatient"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="Patient"
+            android:textSize="20sp"
+            android:background="@drawable/home_doctor_button_shape"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Welcome to SquintScale! Please select one from the above options. "
+            android:textSize="19sp"
+            android:textAlignment="center"
+            android:layout_margin="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>
